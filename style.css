@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: content-box;
+    
+}
+main{
+     padding: 10px 55px; 
+     font-family: 'Times New Roman', Times, serif;
+}
+
+/* banner section related style */
+.welcome-header-div{
+    background-image: url(resources/Banner\ Image.png);
+    color: aliceblue;
+    text-align: center;
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+  
+  
+}
+.bg-color{
+    /* background-color: black; */
+    background:linear-gradient(black,rgba(0, 0, 0, 0.563));
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+.hny-title{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.nypc-title{
+    color:aliceblue;
+    z-index: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ /* 65% ferry-section related style */
+ .ferry-section{
+    /* background-color: rgb(131, 119, 119); */
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+.ferry-new-year-photo{
+    width: 100%;
+
+}
+.ferry-of-title{
+    padding-top: 60px;
+    color: rgb(255, 0, 0);
+    font-size: 80px;
+    margin-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.ferry-our-title{
+    color: rgba(255, 0, 0, 0.77);
+    text-transform: uppercase;
+
+}
+.ferry-all-title{
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+/* welcome section raleted style */
+.welcome-section{
+    background-image: url(resources/Vectorrr.png);
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 80px;
+}
+.welcome-bg-color{
+   background: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.5;border-radius: 10px;
+}
+.welcome-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 40px;
+    z-index: 1;
+    position: relative;
+}
+.welcome-content{
+color: aliceblue;
+}
+.welcome-title{
+font-size: 50px;
+font-family: none;
+}
+.welcome-description{
+ margin:20px 0px;
+ opacity: 0.5;
+}
+.welcome-btn{
+  background-color: darkgray;
+  border: none;
+  outline: none;
+  padding: 7px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(252, 250, 250);
+  border-radius: 2px;
+  cursor: pointer;
+}
+.welcome-btn:hover{
+ outline: 2px solid rgb(23, 3, 101);
+ color: rgb(6, 255, 238);
+}
+.welcome-image{
+    width: 200px;
+}
+/* section -4  new park hotel pdt related style */
+.pdt-section{
+    background: -webkit-linear-gradient(rgba(227, 149, 149, 0.247),rgb(255, 255, 255));
+    width: 100%;
+    margin: 60px 0px;
+    text-align: center;
+    padding: 5px;
+    
+    
+     
+}
+.pdt-container{
+ width: 85%;
+ background: -webkit-linear-gradient(rgba(227, 149, 149, 0.549),rgb(255, 255, 255));
+margin: 10px auto;
+padding:60px 30px ;
+border-radius: 5px;
+
+}
+
+.please , .date ,.time{
+    color: black;
+    margin: 14px;
+}
+.please-span ,.date-span ,.time-span{
+    color: red;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pdt-btn{
+    border: none;
+    padding: 6px 20px;
+    font-weight: bold;
+    background-color: cadetblue;
+    font-size: 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.pdt-btn:hover{
+  background-color: rgb(252, 250, 250);
+  outline: 2px solid black;
+  color: black;
+  
+}
+/* section-5 coming soon related style */
+.comming-son-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.comming-soon-content{
+    width: 300px;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+.new-offer-title{
+    color:rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+.comming-soon-title{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.comming-soon-description{
+    font-size: 15px;
+    opacity: 0.5;
+}
+.coomin-soon-image{
+    width: 280px;
+    outline: 10px solid red;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+.title-2024{
+    margin-bottom: 20px;
+    color: red;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.comming-soon-description2{
+    color: rgb(0, 0, 0);
+}
+.comming-soon-imag2{
+    width: 150px;
+    margin-top: 25px;
+}
+/* section -6 holiday raleted style */
+.holiday-section{
+    text-align: center;
+    padding: 50px;
+    
+}
+.functional-title{
+ padding: 10px 0px;
+ text-transform: uppercase;
+ font-size: 13px;
+
+}
+.holiday-title{
+ font-size: 35px;
+ text-transform: capitalize;
+ margin-bottom: 10px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 50px;
+}
+.holiday-span{
+ color: red;
+
+}
+.holiday-description{
+ font-weight: bold;
+ font-size: 14px;
+}
+/* section -7 discount section raleted style */
+.dicount-section{
+  width: 100%;
+  /* background: linear-gradient(red,rgb(255, 255, 255)); */
+   
+  position: relative;
+
+}
+.discount-img-content{
+    width: 300px;
+     display: flex;
+     align-items: center;
+     margin-left: 77.4%;
+    
+     
+}
+.discount-img{
+     width: 250px;
+     height: 300px;
+    position:relative ;
+  padding: 0;
+}
+
+.imag-icon{
+    width: 15%;
+ position: absolute;
+ right: 200px;
+
+}
+.celebration-content{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(255, 0, 0);
+    margin: 0 auto;
+    position: relative;
+   border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.celebration-image{
+    position: absolute;
+    width: 450px;
+    left: 100px;
+   bottom: 0;
+}
+/* section - 8 best gift related style */
+.best-gift{
+    margin: 20px 0;
+}
+.gift-title{
+ font: 12px;
+ text-transform: uppercase;
+padding-top: 40px;
+  color: red;
+
+}
+.fortfolio-title{
+  text-transform: capitalize;
+   font-size: 30px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.portfolio-description{
+ padding-top: 20px;
+}
+/* section -9 portfolio-image related style */
+.portfolio-image-section{
+ width: 100%;
+}
+.image-container{
+display: grid;
+grid-template-columns: repeat(4,2fr);
+}
+.image-content{
+width: 250px;
+height: 300px;
+border-radius: 10px;
+margin-bottom: 20px;
+transition: 0.3s;
+}
+.image-content:hover{
+  box-shadow: 3px 3px 12px  rgba(0, 0, 0, 0.458);  
+}
+.portfolio-image{
+ max-width: 100%;
+ height: 100%;
+ cursor: pointer;
+}
+
+/* section-10 subscribe   related style */
+ .subscribe-section{
+   width: 50%;
+   margin: 50px auto;
+   text-align: center;
+   padding: 20px 40px;
+   background-color: rgba(96, 98, 132, 0.252);
+   border-radius: 10px;
+ }
+ .subscribe-content{
+  font-family: 'Times New Roman', Times, serif;
+ }
+
+ .subscribe-title{
+   margin-bottom: 15px;
+   font-size: 35px;
+   text-transform: capitalize;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+.subscribe-description{
+ font-size: 14px;
+ font-weight: bold;
+ color: rgba(0, 0, 0, 0.559);
+ font-family: sans-serif;
+}
+
+.input-btn-div{
+margin-right: 115px;
+padding: 10px;
+position: relative;
+
+}
+
+/* .input {
+
+ margin-top: 20px ;
+ outline: none;
+border: none;
+padding: 11px 18px; 
+background-color: aliceblue;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+font-size: 16px;
+position: relative;
+}
+
+.subscribe-btn{
+    cursor: pointer;
+    position: absolute;
+   margin-top: 20px;
+   border: none;
+   background-color: red;
+   border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+   padding: 10px 20px; 
+   font-size: 17px;
+
+} */
+.input-btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  
+}
+.input{
+    width: 200px;
+    position: absolute;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.input:hover{
+    background-color: transparent;
+   
+}
+.subscribe-btn{
+    position:relative;
+   left: 150px;
+   border: none;
+   padding: 9px 20px;
+   font-size: 17px;
+   background-color: red;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+.subscribe-btn:hover{
+    color: aliceblue;
+}
+/* footer section related style */
+
+footer{
+    background-color: black;
+    color: aliceblue;
+}
+
+.footer-section{
+    padding: 30px 100px;
+}
+.address-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(1, 2, 67);
+}
+.website-title ,.number-title{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+}
+.icon-footer{
+    text-align: center;
+    padding: 40px;
+    border-bottom:2px solid rgb(1, 2, 67); ;
+   
+}
+.fa-brands{
+  margin: 2px;
+  font-size: 20px;
+}
+.last-footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
